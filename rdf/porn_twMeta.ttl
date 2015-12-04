@@ -1,0 +1,22 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix po: <http://purl.org/socialparticipation/po/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix tw: <http://purl.org/socialparticipation/tw/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/socialparticipation/po/Snapshot#porn_tw> a po:Snapshot ;
+    rdfs:label "Snapshot porn_tw" ;
+    po:acquiredThrough "Twitter search engine"^^xsd:string ;
+    po:availableAt "https://github.com/ttm/porn_tw"^^xsd:string ;
+    po:createdAt "2015-12-03"^^xsd:string ;
+    po:discorveryRDFFile "https://raw.githubusercontent.com/ttm/porn_tw/master/rdf/porn_twMeta.owl"^^xsd:string ;
+    po:discoveryTTLFile "https://raw.githubusercontent.com/ttm/porn_tw/master/rdf/porn_twMeta.ttl"^^xsd:string ;
+    po:donatedBy "labMacambira.sf.net"^^xsd:string ;
+    po:originalFile "https://raw.githubusercontent.com/ttm/porn_tw/master/base/"^^xsd:string ;
+    po:rdfFile "https://raw.githubusercontent.com/ttm/porn_tw/master/rdf/porn_twTranslate.owl"^^xsd:string ;
+    po:triplifiedIn "2015-12-04T00:57:21.118681"^^xsd:datetime ;
+    po:ttlFile "https://raw.githubusercontent.com/ttm/porn_tw/master/rdf/porn_twTranslate.ttl"^^xsd:string ;
+    rdfs:comment "The Twitter messages related to tweets with the #porn_tw hashtag"^^xsd:string .
+

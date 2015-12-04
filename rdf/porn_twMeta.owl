@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:po="http://purl.org/socialparticipation/po/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://purl.org/socialparticipation/po/Snapshot#porn_tw">
+    <rdf:type rdf:resource="http://purl.org/socialparticipation/po/Snapshot"/>
+    <po:ttlFile rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://raw.githubusercontent.com/ttm/porn_tw/master/rdf/porn_twTranslate.ttl</po:ttlFile>
+    <po:acquiredThrough rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Twitter search engine</po:acquiredThrough>
+    <po:discoveryTTLFile rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://raw.githubusercontent.com/ttm/porn_tw/master/rdf/porn_twMeta.ttl</po:discoveryTTLFile>
+    <rdfs:label>Snapshot porn_tw</rdfs:label>
+    <po:discorveryRDFFile rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://raw.githubusercontent.com/ttm/porn_tw/master/rdf/porn_twMeta.owl</po:discorveryRDFFile>
+    <po:originalFile rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://raw.githubusercontent.com/ttm/porn_tw/master/base/</po:originalFile>
+    <po:rdfFile rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://raw.githubusercontent.com/ttm/porn_tw/master/rdf/porn_twTranslate.owl</po:rdfFile>
+    <po:triplifiedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2015-12-04T00:57:21.118681</po:triplifiedIn>
+    <po:donatedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">labMacambira.sf.net</po:donatedBy>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Twitter messages related to tweets with the #porn_tw hashtag</rdfs:comment>
+    <po:availableAt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/ttm/porn_tw</po:availableAt>
+    <po:createdAt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2015-12-03</po:createdAt>
+  </rdf:Description>
+</rdf:RDF>
